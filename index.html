@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff8ef" />
+    <meta
+      name="description"
+      content="Craftsy Zee creates personalized gifts, party pieces, apparel, school supplies, and more for Broward, Miami, and beyond."
+    />
+    <title>Craftsy Zee — Make It Yours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Craftsy Zee home">
+        <span>Craftsy</span><strong>Zee</strong>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#creations">Shop Creations</a>
+        <a href="#moments">Find Your Gift</a>
+        <a href="#process">How It Works</a>
+        <a href="#custom-order">Custom Order</a>
+      </nav>
+      <a class="button button-small header-cta" href="#custom-order">Start Your Creation <span>↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Custom creations • South Florida</p>
+          <h1>Made<br />personal.<br />Made<br />memorable.<br /><em>Made by Zee.</em></h1>
+          <p class="hero-intro">
+            Turn your favorite colors, names, moments, and ideas into custom gifts created
+            especially for you.
+          </p>
+          <div class="button-row">
+            <a class="button" href="#studio">Start a Custom Order <span>↗</span></a>
+            <a class="text-link" href="#creations">Explore Creations <span>↓</span></a>
+          </div>
+          <ul class="trust-list" aria-label="Ordering details">
+            <li><span>●</span> Broward + Miami pickup</li>
+            <li><span>●</span> Shipping available</li>
+            <li><span>●</span> Made to order</li>
+          </ul>
+        </div>
+
+        <div class="hero-board" aria-label="A mood board of Craftsy Zee creation ideas">
+          <div class="tape tape-one"></div>
+          <div class="board-card board-main">
+            <span class="scribble">Make it</span>
+            <strong>100%<br />YOURS</strong>
+            <div class="color-dots" aria-hidden="true">
+              <i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="board-card board-note">
+            <span>START WITH</span>
+            <strong>a name,<br />a color,<br />an occasion.</strong>
+          </div>
+          <div class="board-card board-list">
+            <span>YOUR IDEA COULD BE…</span>
+            <ul>
+              <li>Birthday magic</li>
+              <li>School-day style</li>
+              <li>Trip-ready matching</li>
+              <li>A thoughtful thank-you</li>
+            </ul>
+          </div>
+          <div class="round-sticker">made<br />with<br />love</div>
+          <div class="hero-tag">No two creations<br />have to be the same.</div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Craftsy Zee products">
+        <div>
+          <span>TUMBLERS</span><i>✦</i><span>PARTY PACKAGES</span><i>✦</i><span>APPAREL</span><i>✦</i>
+          <span>MINI FANS</span><i>✦</i><span>GIFT SETS</span><i>✦</i><span>SCHOOL SUPPLIES</span><i>✦</i>
+        </div>
+      </section>
+
+      <section class="section moments" id="moments">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow coral"><span></span> Shop by moment</p>
+            <h2>What are we<br /><em>making special?</em></h2>
+          </div>
+          <p>Start with the feeling. Zee will help you find the pieces that make it personal.</p>
+        </div>
+
+        <div class="moment-grid">
+          <a class="moment-card birthday" href="#studio" data-moment="Birthdays">
+            <span class="number">01</span>
+            <div class="moment-art" aria-hidden="true"><b>HAPPY!</b><i>★</i><i>★</i><i>★</i></div>
+            <div>
+              <h3>Birthdays</h3>
+              <p>Goodie bags, labels, cupcake toppers, tumblers, and complete party sets.</p>
+              <span class="card-arrow">↗</span>
+            </div>
+          </a>
+          <a class="moment-card school" href="#studio" data-moment="Back to School">
+            <span class="number">02</span>
+            <div class="moment-art ruled" aria-hidden="true"><b>MY<br />STUFF</b><i>✎</i></div>
+            <div>
+              <h3>Back to School</h3>
+              <p>Personalized composition books, crayons, pencils, labels, and accessories.</p>
+              <span class="card-arrow">↗</span>
+            </div>
+          </a>
+          <a class="moment-card vacation" href="#studio" data-moment="Vacations & Trips">
+            <span class="number">03</span>
+            <div class="moment-art" aria-hidden="true"><b>OUT OF<br />OFFICE</b><i>☀</i></div>
+            <div>
+              <h3>Vacations + Trips</h3>
+              <p>Matching tumblers, shirts, mini fans, and family trip keepsakes.</p>
+              <span class="card-arrow">↗</span>
+            </div>
+          </a>
+          <a class="moment-card career" href="#studio" data-moment="Career & Profession Gifts">
+            <span class="number">04</span>
+            <div class="moment-art" aria-hidden="true"><b>YOU<br />DID THAT</b><i>✦</i></div>
+            <div>
+              <h3>Career Gifts</h3>
+              <p>Personalized gifts for nurses, assistants, teachers, and other professionals.</p>
+              <span class="card-arrow">↗</span>
+            </div>
+          </a>
+          <a class="moment-card simple" href="#studio" data-moment="Graduations">
+            <span>Graduations</span><strong>Big moment.<br />Your details.</strong><b>↗</b>
+          </a>
+          <a class="moment-card simple" href="#studio" data-moment="Holidays">
+            <span>Holidays</span><strong>Festive, made<br />just for them.</strong><b>↗</b>
+          </a>
+          <a class="moment-card simple" href="#studio" data-moment="Friendship & Appreciation">
+            <span>Friendship + Thanks</span><strong>A little love,<br />made tangible.</strong><b>↗</b>
+          </a>
+          <a class="moment-card simple" href="#studio" data-moment="Just Because">
+            <span>Just Because</span><strong>No big occasion<br />required.</strong><b>↗</b>
+          </a>
+        </div>
+      </section>
+
+      <section class="studio section" id="studio">
+        <div class="studio-top">
+          <div>
+            <p class="eyebrow light"><span></span> The personalization studio</p>
+            <h2>Make it <em>yours.</em></h2>
+          </div>
+          <p>Four quick choices. One idea that feels unmistakably like you.</p>
+        </div>
+
+        <div class="studio-shell">
+          <div class="studio-progress" aria-label="Personalization progress">
+            <span class="active" data-progress="1">1</span><i></i>
+            <span data-progress="2">2</span><i></i>
+            <span data-progress="3">3</span><i></i>
+            <span data-progress="4">4</span>
+          </div>
+
+          <div class="studio-step active" data-step="1">
+            <div class="step-count">STEP 01 / 04</div>
+            <h3>What are we celebrating?</h3>
+            <div class="choice-grid">
+              <button data-value="Birthday">🎂 <span>Birthday</span></button>
+              <button data-value="Back to school">✏️ <span>Back to school</span></button>
+              <button data-value="Vacation or trip">☀️ <span>Vacation or trip</span></button>
+              <button data-value="Graduation">🎓 <span>Graduation</span></button>
+              <button data-value="Career milestone">✦ <span>Career milestone</span></button>
+              <button data-value="Something else">♡ <span>Something else</span></button>
+            </div>
+          </div>
+
+          <div class="studio-step" data-step="2">
+            <div class="step-count">STEP 02 / 04</div>
+            <h3>What should Zee customize?</h3>
+            <div class="choice-grid text-choices">
+              <button data-value="Tumblers">Tumblers</button>
+              <button data-value="Mugs">Mugs</button>
+              <button data-value="Apparel">Apparel</button>
+              <button data-value="Birthday Packages">Birthday Packages</button>
+              <button data-value="Goodie Bags">Goodie Bags</button>
+              <button data-value="School Supplies">School Supplies</button>
+              <button data-value="Mini Fans">Mini Fans</button>
+              <button data-value="Labels & Stickers">Labels & Stickers</button>
+              <button data-value="Gift Sets">Gift Sets</button>
+            </div>
+          </div>
+
+          <div class="studio-step" data-step="3">
+            <div class="step-count">STEP 03 / 04</div>
+            <h3>Choose your vibe.</h3>
+            <div class="choice-grid swatch-choices">
+              <button data-value="Soft & Sweet"><i style="--swatch:#fad7e2"></i>Soft + Sweet</button>
+              <button data-value="Bright & Colorful"><i style="--swatch:#f5c65a"></i>Bright + Colorful</button>
+              <button data-value="Bold & Dramatic"><i style="--swatch:#51342f"></i>Bold + Dramatic</button>
+              <button data-value="Elegant & Minimal"><i style="--swatch:#fff8ef"></i>Elegant + Minimal</button>
+              <button data-value="Fun for Kids"><i style="--swatch:#58c8c1"></i>Fun for Kids</button>
+              <button data-value="Inspired by a Theme"><i style="--swatch:#f653a6"></i>Inspired by a Theme</button>
+            </div>
+          </div>
+
+          <div class="studio-step final-step" data-step="4">
+            <div class="step-count">STEP 04 / 04</div>
+            <p class="ready-kicker">YOUR CRAFTSY ZEE IDEA IS READY TO SHARE</p>
+            <h3>Let’s make something<br /><em>only you could imagine.</em></h3>
+            <div class="idea-summary">
+              <div><span>THE MOMENT</span><strong data-summary="moment">—</strong></div>
+              <div><span>THE ITEM</span><strong data-summary="item">—</strong></div>
+              <div><span>THE VIBE</span><strong data-summary="vibe">—</strong></div>
+            </div>
+            <a class="button mango" href="#custom-order" id="send-idea">Share the Details <span>↘</span></a>
+            <button class="start-over" type="button">Start over</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" id="creations">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow"><span></span> Creations gallery</p>
+            <h2>Made from<br /><em>their ideas.</em></h2>
+          </div>
+          <p>Every piece begins with a person, a moment, and a point of view.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter creations">
+          <button class="active" data-filter="all">All creations</button>
+          <button data-filter="tumblers">Tumblers</button>
+          <button data-filter="parties">Parties</button>
+          <button data-filter="apparel">Apparel</button>
+          <button data-filter="school">School</button>
+          <button data-filter="gifts">Gifts</button>
+          <button data-filter="kids">Kids</button>
+        </div>
+        <div class="gallery-wall">
+          <article class="gallery-piece pink" data-category="parties kids">
+            <span>THE WHOLE PARTY</span><strong>One theme.<br />All the details.</strong><small>Party packages + goodie bags</small>
+          </article>
+          <article class="gallery-piece aqua tall" data-category="school kids">
+            <span>NAME IT</span><strong>School-day<br />favorites</strong><small>Books, pencils, labels + more</small>
+          </article>
+          <article class="gallery-piece cream" data-category="tumblers gifts">
+            <span>MADE FOR HER</span><strong>A cup with<br />personality</strong><small>Personalized tumblers</small>
+          </article>
+          <article class="gallery-piece mango wide" data-category="apparel gifts">
+            <span>GO TOGETHER</span><strong>Matching looks<br />for the whole crew</strong><small>Trips, reunions + celebrations</small>
+          </article>
+          <article class="gallery-piece coral" data-category="gifts tumblers">
+            <span>PROUD OF YOU</span><strong>Career gifts</strong><small>For the milestone maker</small>
+          </article>
+          <article class="gallery-piece cocoa" data-category="kids gifts">
+            <span>LITTLE DETAILS</span><strong>Big joy.</strong><small>Mini fans, favors + stickers</small>
+          </article>
+        </div>
+        <p class="asset-note">Real Craftsy Zee creation photography will appear here when the brand asset library is connected.</p>
+      </section>
+
+      <section class="canvas section">
+        <div class="canvas-heading">
+          <p class="eyebrow coral"><span></span> Product categories</p>
+          <h2>Pick your <em>canvas.</em></h2>
+        </div>
+        <div class="canvas-list">
+          <a href="#studio"><span>01</span><strong>Tumblers + Cups</strong><small>Names, themes, professions, colors, and more.</small><b>↗</b></a>
+          <a href="#studio"><span>02</span><strong>Mugs</strong><small>A personal touch for morning routines.</small><b>↗</b></a>
+          <a href="#studio"><span>03</span><strong>Apparel</strong><small>Wear the moment, message, or group theme.</small><b>↗</b></a>
+          <a href="#studio"><span>04</span><strong>Party Packages</strong><small>Coordinated details that bring a theme together.</small><b>↗</b></a>
+          <a href="#studio"><span>05</span><strong>School Supplies</strong><small>Make everyday essentials easy to spot and love.</small><b>↗</b></a>
+          <a href="#studio"><span>06</span><strong>Mini Fans</strong><small>A practical detail with a personal spin.</small><b>↗</b></a>
+          <a href="#studio"><span>07</span><strong>Labels + Stickers</strong><small>The finishing touch for events and everyday items.</small><b>↗</b></a>
+          <a href="#studio"><span>08</span><strong>Custom Gift Sets</strong><small>A thoughtful mix, made for the recipient.</small><b>↗</b></a>
+        </div>
+      </section>
+
+      <section class="process section" id="process">
+        <div class="process-heading">
+          <p class="eyebrow light"><span></span> A simple custom process</p>
+          <h2>From your idea<br /><em>to your hands.</em></h2>
+          <p>Personal from the first message to the final handoff.</p>
+        </div>
+        <ol class="process-steps">
+          <li><span>01</span><div><strong>Share Your Idea</strong><p>Tell Zee the occasion, item, colors, names, and deadline.</p></div></li>
+          <li><span>02</span><div><strong>Receive Your Quote</strong><p>Pricing depends on product, quantity, design, customization, and timing.</p></div></li>
+          <li class="highlight"><span>03</span><div><strong>Pay the Deposit</strong><p>A 50% deposit is required before production begins.</p></div></li>
+          <li><span>04</span><div><strong>Approve the Details</strong><p>Review and confirm the important details before production.</p></div></li>
+          <li><span>05</span><div><strong>Pickup or Delivery</strong><p>Collect locally in Broward or Miami, or receive it by shipping.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="order-section section" id="custom-order">
+        <div class="order-intro">
+          <div class="sticky-note">It can start with<br />just a color + a name.</div>
+          <p class="eyebrow coral"><span></span> Custom order inquiry</p>
+          <h2>Tell Zee what<br /><em>you imagine.</em></h2>
+          <p>
+            Have the full vision? Perfect. Still figuring it out? That’s perfect too.
+            Share what you know and Zee can take it from there.
+          </p>
+          <div class="order-facts">
+            <span>50% deposit to begin</span>
+            <span>Pickup or shipping</span>
+            <span>Quote before production</span>
+          </div>
+        </div>
+
+        <form class="order-form" id="inquiry-form">
+          <div class="form-section">
+            <span class="form-number">01</span>
+            <div>
+              <h3>First, how can Zee reach you?</h3>
+              <div class="field-grid">
+                <label class="full">Your name<input name="name" type="text" autocomplete="name" required placeholder="First and last name" /></label>
+                <label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
+                <label>Phone number<input name="phone" type="tel" autocomplete="tel" required placeholder="(000) 000-0000" /></label>
+              </div>
+            </div>
+          </div>
+          <div class="form-section">
+            <span class="form-number">02</span>
+            <div>
+              <h3>Tell us about the moment.</h3>
+              <div class="field-grid">
+                <label>Occasion<input name="occasion" type="text" placeholder="Birthday, trip, graduation…" /></label>
+                <label>Date needed<input name="date" type="date" /></label>
+                <label>Product type<select name="product"><option value="">Choose one</option><option>Tumblers</option><option>Mugs</option><option>Apparel</option><option>Birthday Packages</option><option>Goodie Bags</option><option>School Supplies</option><option>Mini Fans</option><option>Labels & Stickers</option><option>Gift Sets</option><option>Something else</option></select></label>
+                <label>Quantity<input name="quantity" type="number" min="1" placeholder="How many?" /></label>
+              </div>
+            </div>
+          </div>
+          <div class="form-section">
+            <span class="form-number">03</span>
+            <div>
+              <h3>Now, make it personal.</h3>
+              <div class="field-grid">
+                <label class="full">Names or wording<textarea name="wording" rows="3" placeholder="Share the exact names, phrases, or wording to include"></textarea></label>
+                <label>Preferred colors<input name="colors" type="text" placeholder="Pink, aqua, gold…" /></label>
+                <label>Theme or style<input name="theme" type="text" placeholder="Bright, elegant, a character…" /></label>
+                <label>Budget range<select name="budget"><option value="">Select a range</option><option>Under $50</option><option>$50–$100</option><option>$100–$250</option><option>$250–$500</option><option>$500+</option><option>Not sure yet</option></select></label>
+                <label>How will you receive it?<select name="delivery" id="delivery-choice"><option value="">Choose one</option><option>Local pickup</option><option>Shipping</option></select></label>
+                <label class="full shipping-field" hidden>Shipping destination<input name="destination" type="text" placeholder="City, state, and ZIP code" /></label>
+                <label class="full">Anything else Zee should know?<textarea name="instructions" rows="4" placeholder="Tell us about the recipient, deadline, inspiration, or special details"></textarea></label>
+                <label class="upload">Inspiration photos<input name="inspiration" type="file" accept="image/*" multiple /><span>＋ Choose images</span></label>
+                <label class="upload">Logo or personal photo<input name="personal-photo" type="file" accept="image/*" /><span>＋ Choose image</span></label>
+              </div>
+            </div>
+          </div>
+          <label class="deposit-check">
+            <input type="checkbox" required />
+            <span>I understand that a 50% deposit is required before production begins.</span>
+          </label>
+          <button class="button submit-button" type="submit">Send My Custom Request <span>↗</span></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="about section">
+        <div class="about-graphic">
+          <span class="about-label">BLACK-OWNED<br />SOUTH FLORIDA<br />SMALL BUSINESS</span>
+          <div class="about-word">MADE<br /><i>with</i><br />LOVE</div>
+          <div class="about-sticker">by Zee ✦</div>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow"><span></span> Meet the maker</p>
+          <h2>The creative hands<br />behind <em>Craftsy Zee.</em></h2>
+          <p class="lead">
+            Craftsy Zee is a Black-owned South Florida small business dedicated to
+            making gifts feel personal, memorable, and unique.
+          </p>
+          <p>
+            Every request starts with what matters to you—your people, your colors,
+            your celebration, and your idea. Zee brings those details together in
+            a creation made especially for the moment.
+          </p>
+          <a class="text-link" href="#custom-order">Create something together <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <span>Made for each customer</span><i>✦</i>
+        <span>Broward + Miami pickup</span><i>✦</i>
+        <span>Shipping available</span><i>✦</i>
+        <span>Clear approval process</span><i>✦</i>
+        <span>Personal communication</span><i>✦</i>
+        <span>Quality checked</span>
+      </section>
+
+      <section class="final-cta">
+        <div class="cta-spark" aria-hidden="true">✦</div>
+        <p class="eyebrow light"><span></span> Ready when you are</p>
+        <h2>Your idea deserves more<br />than something <em>ordinary.</em></h2>
+        <p>
+          Whether you have a complete vision or only a name, color, and occasion,
+          Craftsy Zee can help turn it into a gift made especially for your moment.
+        </p>
+        <div class="button-row center">
+          <a class="button mango" href="#custom-order">Start My Custom Order <span>↗</span></a>
+          <a class="button outline-light" href="#footer">Message Craftsy Zee <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-brand">
+        <a class="wordmark light-mark" href="#top"><span>Craftsy</span><strong>Zee</strong></a>
+        <p>Custom Creations<br />Made With Love</p>
+      </div>
+      <div>
+        <span class="footer-label">ORDER</span>
+        <a href="#custom-order">Custom order</a>
+        <a href="#process">Order policy</a>
+        <a href="#moments">Find your gift</a>
+      </div>
+      <div>
+        <span class="footer-label">FOLLOW</span>
+        <a href="#" aria-label="Instagram link placeholder">Instagram ↗</a>
+        <a href="#" aria-label="TikTok link placeholder">TikTok ↗</a>
+      </div>
+      <div>
+        <span class="footer-label">AVAILABLE</span>
+        <p>Broward + Miami pickup<br />Shipping available</p>
+      </div>
+      <p class="copyright">© <span id="year"></span> Craftsy Zee</p>
+    </footer>
+
+    <a class="mobile-order" href="#custom-order">Start a custom order <span>↗</span></a>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
